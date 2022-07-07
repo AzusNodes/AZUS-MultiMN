@@ -2,23 +2,17 @@
 
 A script which is easily create Multiple Masternodes of the same coin in the same VPS.
 
-First of all you have to start one masternode using <a href="https://github.com/AzusNodes/AZUS-MultiMN/blob/main/AZUS-18.04-MN.sh">AZUS-18.04-MN.sh</a> OR <a href="https://github.com/AzusNodes/AZUS-MultiMN/blob/main/AZUS-20.04-MN.sh">AZUS-20.04-MN.sh</a> script that is your MainNode.
+First of all you have to start one masternode using <a href="https://github.com/AzusNodes/AZUS-MNScript/blob/main/AZUS-MN.sh">AZUS-MN.sh</a> script that is your MainNode.
 
 # Guide of use AZUS MN for MainNode:
 
-##### For Ubuntu 18.04
+##### For Ubuntu 18.04 / 20.04
 ```
-wget -q https://raw.githubusercontent.com/AzusNodes/AZUS-MultiMN/main/AZUS-18.04-MN.sh
-sudo chmod +x AZUS-18.04-MN.sh
-./AZUS-18.04-MN.sh
+wget -q https://raw.githubusercontent.com/AzusNodes/AZUS-MNScript/main/AZUS-MN.sh
+sudo chmod +x AZUS-MN.sh
+./AZUS-MN.sh
 ```
 
-##### For Ubuntu 20.04
-```
-wget -q https://raw.githubusercontent.com/AzusNodes/AZUS-MultiMN/main/AZUS-20.04-MN.sh
-sudo chmod +x AZUS-20.04-MN.sh
-./AZUS-20.04-MN.sh
-```
 
 ***
 
@@ -105,4 +99,3 @@ systemctl start   azus-3.service
 ```
 
 That's all now your MN start.
-
