@@ -74,7 +74,7 @@ MN03 IP:50322 MN_PrivKey Tx_Hash Output_Index
 
 Here IP and port Same for all MN.
 
-MN0 is your main_node MN which you create with <a href="https://github.com/AzusNodes/AZUS-MultiMN/blob/main/AZUS-18.04-MN.sh">AZUS-18.04-MN.sh</a> OR <a href="https://github.com/AzusNodes/AZUS-MultiMN/blob/main/AZUS-20.04-MN.sh">AZUS-20.04-MN.sh</a> script.
+MN0 is your main_node MN which you create with <a href="https://github.com/AzusNodes/AZUS-MNScript/blob/main/AZUS-MN.sh">AZUS-MN.sh</a> script.
 
 MN01, MN02, MN03 is your masternode which you create with multimn.
 
@@ -89,7 +89,7 @@ startmasternode alias false MN03
 
 Now StartMasternode in VPS with Service:
 
-`systemctl start azus` (Start your MN which is create with main_node <a href="https://github.com/AzusNodes/AZUS-MultiMN/blob/main/AZUS-18.04-MN.sh">AZUS-18.04-MN.sh</a> OR <a href="https://github.com/AzusNodes/AZUS-MultiMN/blob/main/AZUS-20.04-MN.sh">AZUS-20.04-MN.sh</a> script)
+`systemctl start azus` (Start your MN which is create with main_node <a href="https://github.com/AzusNodes/AZUS-MNScript/blob/main/AZUS-MN.sh">AZUS-MN.sh</a> script)
 
 Below 3 MN which is create with `multimn` script.
 ```
